@@ -1,0 +1,21 @@
+[
+    {
+        "id":"1",
+        "que":"what is your Date of Birth?",
+        "type":"dob",
+        "saved_ans":""
+    },
+    {
+        "id":"2",
+        "que":"what is your gender?",
+        "type":"radio",
+        "options":[{"value":"male", "label":"Male"}, {"value":"female", "label": "Female"}],
+        "saved_ans":""
+    },
+    {
+        "id":"3",
+        "que":"what is your blood pressure?",
+        "type":"text",
+        "saved_ans":""
+    }
+]
