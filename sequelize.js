@@ -1,9 +1,10 @@
 const { Sequelize } = require('sequelize');
+const {DB_NAME, DB_USER, DB_PWD, DB_HOST} = process.env;
 
-const sequelize = new Sequelize('rest_nuxt', 'postgres', 'admin', {
-    host: 'localhost',
+const sequelize = new Sequelize(DB_NAME, DB_USER, DB_PWD, {
+    host: DB_HOST,
     dialect: 'postgres',
-    logging: false 
+    logging: true 
 });
 
 async function checkCOnnection(){
