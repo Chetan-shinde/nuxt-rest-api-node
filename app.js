@@ -25,7 +25,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 var corsOptions = {
-  origin: ['http://localhost:4000', 'http://ec2-3-143-5-193.us-east-2.compute.amazonaws.com:8080/', 'http://3.143.5.193:8081'],
+  origin: ['http://localhost:4000', 'http://ec2-3-143-5-193.us-east-2.compute.amazonaws.com:8080/', 'http://ec2-3-143-5-193.us-east-2.compute.amazonaws.com:8081'],
   optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
